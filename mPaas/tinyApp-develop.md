@@ -122,8 +122,3 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return NO;
 }
 ```
-小程序、H5离线包原理
-
-
-#### 2. 发布小程序
-#### 3. 启动小程序
