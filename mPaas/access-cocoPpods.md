@@ -63,7 +63,7 @@ mPaaS_pod "mPaaS_ARTVC" | 10.1.68 | 音视频通话：音频、视频通话组�
 
 4. 执行 pod mpaas update x.x.x，其中 x.x.x 为配置的基线号，例如 10.1.68
 5. 执行 pod install 即可完成接入。您还可以追加 --verbose 查看详细日志。
-6. 如果您在接入后遇到了三方库冲突，可将引起冲突的三方库移除。具体操作，请参见 [$\color{red}{iOS 冲突处理}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/access.md)
+6. 如果您在接入后遇到了三方库冲突，可将引起冲突的三方库移除。具体操作，请参见 [$\color{red}{iOS 冲突处理}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/iosConflict.md)
 
 ## 升级指南
 当 mPaaS 有新版本发布时，您可选择升级组件，或整体升级基线（即 SDK 版本）。
