@@ -31,7 +31,7 @@ H5 容器组件提供以下能力
 
 示例代码如下：
 
-```
+```objc
 @implementation KKJsApi4TinyToNative
 
 - (void)handler:(NSDictionary *)data context:(PSDContext *)context callback:(PSDJsApiResponseCallbackBlock)callback {
@@ -67,7 +67,7 @@ H5 容器组件提供以下能力
 
       示例代码如下：
 
-```
+```objc
 - (void)application:(UIApplication *)application beforeDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // 初始化容器
