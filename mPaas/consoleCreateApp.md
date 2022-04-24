@@ -33,7 +33,7 @@
 配置文件内容为JSON格式，示例如下：
 
 
-```
+```objc
  {
 	"appId":"ALIPUB5788924181041", // 小程序ID
 	"appKey":"ALIPUB5788924181041_IOS", 
