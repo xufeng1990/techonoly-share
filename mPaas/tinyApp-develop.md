@@ -22,7 +22,7 @@ mPaaS_pod "mPaaS_TinyApp"
 
 - 为了使用 Nebula 容器，您需要在程序启动完成后调用 SDK 接口，对容器进行初始化。必须在 DTFrameworkInterface 的 - (void)application:(UIApplication *)application beforeDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中进行初始化
 
-```Objective C
+```objc
 - (void)application:(UIApplication *)application beforeDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // 初始化容器
@@ -36,7 +36,7 @@ mPaaS_pod "mPaaS_TinyApp"
 > pluginsJsapisPath：自定义 JSAPI 和 Plugin 文件的存储路径
 
 
-```Objective C
+```objc
   - (void)application:(UIApplication *)application beforeDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
   {
       // 初始化容器
@@ -49,7 +49,7 @@ mPaaS_pod "mPaaS_TinyApp"
 - 配置小程序包请求时间间隔：mPaaS 支持配置小程序包的请求时间间隔，可全局配置或单个配置。
 全局配置：您可以在初始化容器时通过如下代码设置⼩程序包的更新频率
 
-```Objective C
+```objc
 [MPNebulaAdapterInterface shareInstance].nebulaUpdateReqRate = 7200;
 ```
 > 其中 7200 是设置全局更新间隔的值，7200 为默认值，代表间隔时长，单位为秒，您可修改此值来设置您的全局小程序包请求间隔，范围为 0 ~ 86400 秒（即 0 ~ 24 小时，0 代表无请求间隔限制）
@@ -57,7 +57,7 @@ mPaaS_pod "mPaaS_TinyApp"
 ##### 1.2 定制容器
 如有需要，您可以通过设置 MPNebulaAdapterInterface 的属性值来定制容器配置。必须在 DTFrameworkInterface 的 - (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions 中设置，否则会被容器默认配置覆盖。
 
-```Objective C
+```objc
   - (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
   {
       // 定制容器
@@ -80,7 +80,7 @@ mPaaS_pod "mPaaS_TinyApp"
 ##### 1.3 更新小程序包
 启动完成后，全量或者单个应用请求小程序包信息，检查服务端是否有更新包。为了不影响应用启动速度，建议在 (void)application:(UIApplication \*)application afterDidFinishLaunchingWithOptions:(NSDictionary \*)launchOptions 之后调用。
 
-```Objective C
+```objc
 - (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
    // 单个应用请求
@@ -116,7 +116,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 - 支持不继承 DFNavigationController。
 
-```Objective C
+```objc
 在 DTFrameworkInterface (Category)中设置
 - (BOOL)shouldInheritDFNavigationController {
     return NO;
