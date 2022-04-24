@@ -15,7 +15,7 @@
 
 1. 在终端运行以下安装命令.
 
-```
+```shell
 curl -sSL https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mpaaskit/Xcode-extension/install.sh | sh
 ```
 2. [$\color{red}{在控制台创建应用}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/accessWay.md)
