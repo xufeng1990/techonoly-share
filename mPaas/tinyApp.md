@@ -4,4 +4,4 @@
 
 [$\color{red}{三：小程序小程序发布}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/tinyApp-release.md)
 
-[$\color{red}{三：小程序自定义双向通道}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/tinyApp-release.md)
+[$\color{red}{四：小程序自定义双向通道}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/two-way-channel.md)
