@@ -7,3 +7,7 @@
 [$\color{red}{四：小程序自定义双向通道}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/two-way-channel.md)
 
 [$\color{red}{五：开发小程序}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/develop-tiny.md)
+
+[$\color{red}{六：uniapp导出小程序}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/uniapp-xeport-tiny.md)
+
+[$\color{red}{七：uniapp小程序运行调试}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/uniapp-tiny-debug.md)
