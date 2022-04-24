@@ -9,7 +9,7 @@
 2. 小程序调用。
 
 
-```
+```js
  // 小程序向原生进行通信
   tinyToNative() {
     my.call('tinyToNative', {
@@ -30,7 +30,7 @@
 
 1. 小程序注册事件。
 
-```
+```js
 // 小程序注册事件
     my.on('nativeToTiny', (res) => {
       my.showToast({
@@ -50,7 +50,7 @@
 
 获取当前小程序页面所在的 viewController，调用 callHandler 方法发送事件。
 
-```
+```objc
 @implementation KKJsApi4GetAppInfo
 
 - (void)handler:(NSDictionary *)data context:(PSDContext *)context callback:(PSDJsApiResponseCallbackBlock)callback {
