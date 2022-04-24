@@ -36,12 +36,12 @@
    **说明** ：cocoapods-mPaaS 插件 beta 版仅支持在 10.1.68 基线中使用。
 
 
-```
+```shell
 sh <(curl -s http://mpaas-ios-test.oss-cn-hangzhou.aliyuncs.com/cocoapods/installmPaaSCocoaPodsPlugin.sh)
 ```
 安装完成后，使用命令 pod mpaas version --plugin 确认是 beta 版本。
 
-```
+```shell
 pod mpaasversion --plugin
 0.9.5.0.0.7-beta
 ```
@@ -51,7 +51,7 @@ pod mpaasversion --plugin
 
   >  比如，在 mPaaS_pod "mPaaS_CommonUI" 之前使用 remove_pod "mPaaS_SDWebImage" 去除 SDWebImage。
 
-```
+```objc
 remove_pod "mPaaS_SDWebImage"
 
 ```
@@ -61,14 +61,14 @@ remove_pod "mPaaS_SDWebImage"
 
 1. 非 mPaaS 定制库冲突
 
-```
+```objc
 remove_pod "mPaaS_SDWebImage"
 remove_pod "mPaaS_Masonry"
 remove_pod "mPaaS_MBProgressHud"
 ```
 2. mPaaS 定制库冲突
 
-```
+```objc
 mPaaS_pod "mPaaS_AlipaySDK" // 阿里支付SDK 
 
 ```
@@ -80,7 +80,7 @@ mPaaS_pod "mPaaS_AlipaySDK" // 阿里支付SDK
 
 解决冲突之后podfile文件修改如下：
 
-```
+```objc
 # mPass
     remove_pod "mPaaS_SDWebImage"
     remove_pod "mPaaS_Masonry"
