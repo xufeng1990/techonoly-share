@@ -4,14 +4,14 @@
 
 1. 用Visual Studio 打开库课题库uniapp项目、在终端输入：
 
-```
+```shell
 npm run dev:h5
 ```
 
 出现如下信息即表示运行成功：
 
 
-```
+```shell
  DONE  Compiled successfully in 19161ms                                                                                                          
   App running at:
   - Local:   http://localhost:8080/ 
@@ -35,7 +35,7 @@ npm run dev:h5
 - 从命令行交互。控制台是一个完整的终端，您可以在开发过程中与页面进行交互。使用控制台的命令，您可以选择DOM元素，配置CPU，监视事件等。
 - 一般情况下我们用来输入信息的方法主要是用到如下四个
 
-```
+```shell
 1、console.log 用于输出普通信息
 
 2、console.info 用于输出提示性信息
@@ -49,7 +49,7 @@ npm run dev:h5
 - 使用断点进行调试
 - 使用开发者工具的工作区设置持久化-将本地源文件添加到工作区。要将本地文件夹的源文件设置为可以在 Sources 面板中修改，请执行以下操作。
 
-```
+```shell
  (1)右键点击左侧面板。
 
  (2)选择 Add Folder to Workspace。
