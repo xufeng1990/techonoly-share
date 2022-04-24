@@ -117,7 +117,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 - 支持不继承 DFNavigationController。
 
 ```objc
-在 DTFrameworkInterface (Category)中设置
+// 在 DTFrameworkInterface (Category)中设置
 - (BOOL)shouldInheritDFNavigationController {
     return NO;
 }
