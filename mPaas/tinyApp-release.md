@@ -63,7 +63,7 @@
 完成上述步骤之后，进入对应的页面时，调用框架提供的 startTinyAppWithId 接口方法加载小程序。
 
 
-```
+```objc
 [MPNebulaAdapterInterface startTinyAppWithId:appId params:nil];
 ```
 若打开小程序时需要传递参数，可以通过 param 参数进行设置。其中 param 包含 page 和 query 两个字段：
@@ -72,7 +72,7 @@
 -  **page** ： 用来指定打开特定页面的路径。
 -  **query** ：用来传入自定义的参数。多个键值对以 & 进行拼接。
 
-```
+```objc
 NSDictionary *param = @{@"page":@"pages/card/index", @"query":@"own=1&sign=1&code=2452473"};
 [MPNebulaAdapterInterface startTinyAppWithId:appId params:dic];
 ```
