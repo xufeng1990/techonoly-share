@@ -6,7 +6,7 @@
 1. 在 Podfile 文件中，使用 mPaaS_pod "mPaaS_TinyApp" 添加小程序组件依赖
 
 ```swift
-mPaaS_pod “mPaaS_TinyApp”
+mPaaS_pod "mPaaS_TinyApp"
 ```
 
 2. 在命令行中执行 pod install 即可完成接入。
