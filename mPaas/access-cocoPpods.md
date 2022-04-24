@@ -6,7 +6,7 @@
 - 已安装 CocoaPods 1.0.0 及以上版本，并确保要接入的工程是 CocoaPods 工程。
 - 已安装 Cocoapods-mPaaS 插件。如您尚未安装该插件，可使用以下命令进行安装。
 
-```
+```shell
 sh <(curl -s http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/cocoapods/installmPaaSCocoaPodsPlugin.sh)
 ```
 
@@ -20,7 +20,7 @@ sh <(curl -s http://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/cocoapods/installmPaa
 
 自动配置的代码如下：
 
-```
+```objc
  plugin "cocoapods-mPaaS"
  source "https://code.aliyun.com/mpaas-public/podspecs.git"
  mPaaS_baseline 'x.x.x' // 最新基线版本为 '10.1.68'
