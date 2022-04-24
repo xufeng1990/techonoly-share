@@ -18,7 +18,7 @@
 ```shell
 curl -sSL https://mpaas-ios.oss-cn-hangzhou.aliyuncs.com/mpaaskit/Xcode-extension/install.sh | sh
 ```
-2. [$\color{red}{在控制台创建应用}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/accessWay.md)
+2. [$\color{red}{在控制台创建应用}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/consoleCreateApp.md)
 
 3. 配置 mPaaS 新工程，输入  **项目名称**  并导入第二步中下载的  _.config_  配置文件，然后点击 下一步 按钮
 
