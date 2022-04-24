@@ -80,7 +80,7 @@ mPaaS_pod "mPaaS_TinyApp"
 ##### 1.3 更新小程序包
 启动完成后，全量或者单个应用请求小程序包信息，检查服务端是否有更新包。为了不影响应用启动速度，建议在 (void)application:(UIApplication \*)application afterDidFinishLaunchingWithOptions:(NSDictionary \*)launchOptions 之后调用。
 
-```swift
+```Object-C
 - (void)application:(UIApplication *)application afterDidFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
    // 单个应用请求
