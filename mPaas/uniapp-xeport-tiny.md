@@ -27,33 +27,33 @@ HBuilderX是通用的前端开发工具，但为uni-app做了特别强化。
 
 全局安装vue-cli
 
-```
+```shell
 npm install -g @vue/cli@4
 ```
 #### 创建uni-app
 
 - 使用正式版（对应HBuilderX最新正式版）
 
-```
+```shell
 vue create -p dcloudio/uni-preset-vue my-project
 ```
 - 使用alpha版（对应HBuilderX最新alpha版）
 
-```
+```shell
 vue create -p dcloudio/uni-preset-vue#alpha my-alpha-project
 ```
 
 - 使用Vue3/Vite版
 
 
-```
+```shell
 px degit dcloudio/uni-preset-vue#vite my-vue3-project
 
 ```
 
 #### 运行、发布uni-app
 
-```
+```shell
 npm run dev:%PLATFORM%
 npm run build:%PLATFORM%
 ```
@@ -79,7 +79,7 @@ npm run build:%PLATFORM%
 
 以库课题库、图库图书为例 执行 
 
-```
+```shell
 npm run build:mp-alipay
 ```
 编译成功后，会在项目目录下生成编译好的支付宝小程序
@@ -98,14 +98,14 @@ npm run build:mp-alipay
 node版本 
 > 题库uniapp项目需要的node版本 **V14.X.X** ,更高的版本运行会报错，遇到项目运行不起来可以降低node版本
 
-```
+```shell
 node -v
 v14.18.2
 ```
 
 npm版本
 
-```
+```shell
 npm -v
 6.14.15
 ```
@@ -113,7 +113,7 @@ npm -v
 vue/Cli版本
 > 最新版本5.x.x 通过vue-cli命令行创建的uniapp项目如果在Visual Studio中运行报错，可以尝试将版本降低，选择更稳定的大版本。
 
-```
+```shell
 vue -V
 @vue/cli 4.5.15
 ```
@@ -123,14 +123,14 @@ vue -V
 1：卸载最新版本vuecli5.0
 
 
-```
+```shell
 sudo npm remove -g @vue/cli
 
 ```
 
 2：安装vue4.5.15版本
 
-```
+```shell
 sudo npm install -g @vue/cli@4.5.15
 ```
 
