@@ -13,6 +13,7 @@
 
 ![输入图片说明](../images/1147.png)
 
+
 ![输入图片说明](../images/1577056895338-4c6396e7-3094-4149-9198-8be51bd68a16.png)
 
 其他操作步骤和 **[$\color{red}{基于mPaaS框架接入}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/access-mPaas.md)** 方式相同
