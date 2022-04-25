@@ -4,7 +4,7 @@
 
 1. 客户端自定义 API 并注册。
 
-参考 [$\color{red}{自定义 JSAPI}$](https://gitee.com/ylyk/technology-share/blob/master/mPaas/custom-jsapi.md)，注册您的自定义 API。
+参考 [自定义 JSAPI](https://github.com/xufeng1990/techonoly-share/blob/master/mPaas/custom-jsapi.md)，注册您的自定义 API。
 
 2. 小程序调用。
 
